@@ -57,6 +57,7 @@ See [official docs](https://upstash.com/docs/qstash/howto/local-development)
 Test the workflow: create a subscription by sending a POST request to `api/v1/subscription/` with a JSON body
 
 ```json
+{
   "name": "Elite Membership",
   "price": 101,
   "currency": "EUR",
@@ -64,4 +65,5 @@ Test the workflow: create a subscription by sending a POST request to `api/v1/su
   "category": "entertainment",
   "startDate": "2025-04-01T00:00:00.000Z",
   "paymentMethod": "Credit Card"
+}
 ```
